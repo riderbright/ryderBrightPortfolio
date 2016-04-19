@@ -91,7 +91,7 @@ ul {
     border: 2px solid;
     border-color: rgba(255, 255, 255, .90);
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
     float: left;
     margin-right: 2em;
     margin-left: 2em;
@@ -159,6 +159,7 @@ header {
     margin-bottom: .5em;
     margin-left: -1.1em;
     object-fit: cover;
+    object-position: top;
     position: absolute;
     float: left;
 }
